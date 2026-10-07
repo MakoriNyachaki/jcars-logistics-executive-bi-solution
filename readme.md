@@ -1,6 +1,6 @@
 # JCars Logistics Power BI Business Intelligence Assessment
 
-![Dashboard](/images/dashboard.png)
+![Dashboard](~/images/dashboard.png)
   
 **JCars Logistics** is a commercial automotive dealership and logistics company operating across **8 branches** (*Thika, Kakamega, Nakuru, Nairobi, Kisumu, Mombasa, Eldoret, Athi River*) in **7 regions of Kenya**.
 
