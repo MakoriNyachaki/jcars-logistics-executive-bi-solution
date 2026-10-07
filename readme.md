@@ -112,7 +112,7 @@ parseCustom
 8. **Discount Exceeds Margin:** Created exception flags for transactions where discounts eroded gross margin and set them to `null`.
 9. **Missing Ratings:** Assigned neutral default weights for sentiment analysis.
 
-![Power Query](/images/power_query.png) 
+![Power Query](images/power_query.png) 
 
 ---
 
@@ -125,7 +125,7 @@ The raw flat dataset was restructured into an analytical **Star Schema** to opti
 * **`FactOrders`**: Contains foreign keys (`Order ID`, `Branch ID`, `Region ID`, `Sales Rep ID`, `Customer ID`, `Order Date`, `City ID`, `County ID`) and numerical measures(`Unit Selling Price(KES)`, `Units Sold`, `Unit Cost(KES)`, `Logistic Cost(KES)`, `Delivery Fees(KES)`), and Categorical measures like (`Vehicle Type`, `Color`, `Payment Method`, `Payment Status`, `Delivery Status`, `Car Make`, e.t.c.)
 * **Dimensions**: Filter direction is strictly **Single-Direction** from Dimension tables to Fact table exhibing a 1-to-many(1:*) cardinality.
 
-![Relationships](/images/rlts.png)
+![Relationships](images/rlts.png)
 
 ---
 
